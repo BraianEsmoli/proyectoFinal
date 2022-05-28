@@ -1,0 +1,40 @@
+@import 'base/typo';
+
+@import 'layout/footer';
+@import 'layout/grids';
+@import 'layout/navegacion';
+
+@import 'pages/contacto';
+@import 'pages/index';
+@import 'pages/proyectos';
+
+@import 'utilities/variables';
+
+@media (max-width: 1200px){
+    #navbar{
+        padding: 0;
+        flex-direction: column;
+        div ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    main{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .container-proyects{
+        height: 225vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-contact{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        img{
+            margin: 1rem 0 1rem 2.5rem;
+        }
+    }
+}

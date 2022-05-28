@@ -1,0 +1,33 @@
+#navbar{
+    display: flex;
+    padding: 0 10rem;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    justify-content: space-between;
+    background-color: #001E6C;
+    div{
+        margin: 10px;
+        ul li{
+            margin: 0px 1rem;
+            display: inline;
+            a{
+                transition: all 0.5s ease-out;
+                &:hover{
+                    color: aqua;
+                }
+            }
+        }
+        h1 a{
+            transition: all 0.5s ease-out;
+            &:hover{
+                color: aqua;
+            }
+        }
+    }
+    a{
+        color: #ffffff;
+    }
+}
+#colorMayus{
+    color: aqua;
+}
